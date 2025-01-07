@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bootstrap One</title>
+<style>
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Simple Bootstrap One</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to Simple Bootstrap One. This is a clean and minimalist design.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a demonstration of Simple Bootstrap One website with clean styling.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="https://bcif.github.io/" target="_blank"><strong>bcif</strong></a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 bcif</p>
+    </footer>
+</body>
+</html>
